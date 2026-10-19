@@ -28,12 +28,14 @@ These are associations within the coursework dataset. They do not establish that
 
 ## Run or inspect
 
-1. Open the notebook in Jupyter or Google Colab. The saved outputs can also be inspected on GitHub.
-2. Install the libraries imported by the notebook: `pandas numpy matplotlib seaborn hvplot holoviews bokeh` and Jupyter if running locally.
-3. The original loading cells use coursework URLs. For a self-contained local run, change each `pd.read_csv(...)` URL to the matching CSV filename in this repository, retaining `index_col=0`.
-4. Run cells from top to bottom. Interactive hvPlot output may require a live notebook rather than GitHub's static preview.
+The original submitted notebook and saved outputs remain available above. For local use, [analysis-local.ipynb](analysis-local.ipynb) loads the CSVs from the repository root and has cleared outputs.
 
-The original notebook is preserved. A clean execution in a newly created environment has not been verified, and library-version differences may require adjustments.
+1. Download or clone the complete repository.
+2. Create a separate Python 3.11 environment.
+3. From the repository root, run `python -m pip install -r requirements.txt`, then `python -m jupyter lab`.
+4. Open `analysis-local.ipynb` with that environment's Python kernel and run cells in order.
+
+The portable copy changes only input paths and inline installation cells. Model settings and analytical methods are preserved. Code cells passed syntax checks, and the notebook source was matched to the submitted GitHub version before adaptation. A fresh end-to-end analysis and clean-environment dependency installation have not been verified. Library changes, training time and original analytical limitations can affect reproduction.
 
 ## Context
 

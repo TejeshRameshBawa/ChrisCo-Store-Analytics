@@ -1,0 +1,9 @@
+# Suggested Python 3.11 setup; not a validated lockfile.
+numpy
+pandas
+matplotlib
+seaborn
+hvplot
+holoviews
+jupyterlab
+ipykernel
